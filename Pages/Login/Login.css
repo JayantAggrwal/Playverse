@@ -1,0 +1,36 @@
+.login_section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.login_section_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.login_head span {
+  color: #fff;
+  font-size: 32px;
+}
+
+.login_head img {
+  width: 40px;
+  height: 40px;
+}
+
+.login_body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

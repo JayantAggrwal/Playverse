@@ -1,0 +1,60 @@
+.address_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 1.5em 2em;
+  border-radius: 4px;
+  background: #000;
+  border: 5px solid #fcaf17;
+}
+
+.address_card_body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address_card_body_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.address_card_body_item_key {
+  font-weight: 700;
+}
+
+.address_card_actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address_card_delete,
+.address_card_edit {
+  border: none;
+}
+
+.address_card_delete {
+  background: #ff492d;
+}
+
+.address_card_edit {
+  background: #03c04a;
+}
+
+.address_card_edit:hover {
+  background: green;
+}
+
+.address_card_delete:hover {
+  background: red;
+}
+
+.address_card_edit:hover,
+.address_card_delete:hover {
+  border: none;
+  color: #fff;
+}

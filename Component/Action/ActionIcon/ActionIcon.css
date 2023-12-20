@@ -1,0 +1,32 @@
+.action_icon {
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: inherit;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    transition: background 0.5s, transform 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .action_icon:hover {
+    background: #fcaf17;
+    color: #000;
+    border: 2px solid #fcaf17;
+  }
+  
+  .action_icon:active {
+    transform: scale(0.98);
+  }
+  
+  
+  .action_icon svg {
+    font-size: 24px;
+  }

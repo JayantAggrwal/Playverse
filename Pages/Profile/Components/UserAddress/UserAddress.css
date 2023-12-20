@@ -1,0 +1,154 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+input {
+  padding: 12px;
+  font-family: inherit;
+}
+
+textarea {
+  height: auto;
+  font-family: inherit;
+  padding: 12px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.address_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.address_form_add_btn,
+.address_form_add_btn:hover,
+.address_form_reset_btn,
+.address_form_reset_btn:hover,
+.address_form_random_btn,
+.address_form_random_btn:hover,
+.address_form_cancel_btn,
+.address_form_cancel_btn:hover {
+  border: none;
+}
+
+.address_form_add_btn {
+  background: #52c234;
+}
+
+.address_form_add_btn:hover {
+  background: rgb(31, 201, 31);
+  color: #fff;
+}
+
+.address_form_reset_btn {
+  background: #252525;
+}
+
+.address_form_reset_btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.address_form_random_btn {
+  background: #ddd;
+  color: #000;
+}
+
+.address_form_random_btn:hover {
+  background: #aaa;
+}
+
+.address_form_cancel_btn {
+  background: lightcoral;
+}
+
+.address_form_cancel_btn:hover {
+  background: red;
+  color: #fff;
+}
+
+.address_form_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.address_list_empty {
+  margin: 0 auto;
+}
+
+.add_new_address_btn {
+  background: #db9d23;
+  border: none;
+}
+
+.add_new_address_btn:hover {
+  color: #fff;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .address_form_actions button {
+    flex-basis: 25%;
+  }
+
+  .name_input {
+    grid-area: a;
+  }
+
+  .contact_input {
+    grid-area: b;
+  }
+
+  .pin_input {
+    grid-area: c;
+  }
+
+  .city_input {
+    grid-area: d;
+  }
+
+  .address_input {
+    grid-area: e;
+  }
+
+  .alternate_input {
+    grid-area: f;
+  }
+
+  .state_input {
+    grid-area: g;
+  }
+
+  .address_form_actions {
+    grid-area: h;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .address_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    grid-template-rows: 40px 40px 140px 40px 40px;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e e"
+      "f g"
+      "h h";
+  }
+}

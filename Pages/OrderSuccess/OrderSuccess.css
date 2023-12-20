@@ -1,0 +1,25 @@
+.order_success_section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.order_success_head {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.order_success_body {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order_success_text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}

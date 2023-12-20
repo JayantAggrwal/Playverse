@@ -1,0 +1,28 @@
+.action_link {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  color: #fcaf17;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.action_link:hover {
+  color: #fff;
+}
+
+.action_link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 3px;
+  background-color: #fcaf17;
+  transition: transform 0.5s;
+  transform: scale(0, 1);
+}
+
+.action_link:hover::before {
+  transform: scale(1, 1);
+}

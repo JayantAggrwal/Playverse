@@ -1,0 +1,153 @@
+.cart_card {
+  width: 100%;
+  background: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cart_card_img {
+}
+
+.cart_card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart_card_body {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cart_card_title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.cart_card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #fff;
+}
+
+.cart_card_body_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_card_body_item_key,
+.cart_card_body_item_value {
+  font-size: 16px;
+  color: #fff;
+}
+
+.cart_card_body_item_key {
+  font-weight: 600;
+}
+
+.cart_card_actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.cart_card_internal {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cart_card_external {
+  display: flex;
+  gap: 8px;
+}
+
+.cart_card_counter_btn,
+.cart_card_remove_btn,
+.cart_card_wish_btn {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+  border: none;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.cart_card_counter_btn {
+  background: #fcaf17;
+  color: #fff;
+  font-weight: 600;
+}
+
+.cart_card_counter_btn:hover {
+  background: #f4a507;
+  color: #fff;
+  transform: scale(1);
+  border: none;
+}
+
+.cart_card_counter_btn:active {
+  transform: scale(0.9);
+}
+
+.cart_card_counter_btn_result {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart_card_remove_btn {
+  background: lightcoral;
+  border: none;
+}
+
+.cart_card_remove_btn:hover {
+  border: none;
+  background: red;
+  color: #fff;
+  transform: scale(1);
+}
+
+.cart_card_remove_btn:active {
+  transform: scale(0.9);
+}
+
+.cart_card_wish_btn {
+  color: #fff;
+  background-color: #171616;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.cart_card_wish_btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid none;
+  transform: scale(1);
+  border: none;
+}
+
+.cart_card_wish_btn:active {
+  transform: scale(0.9);
+}
+
+.cart_card_counter_btn_result {
+  color: #fff;
+}
+
+@media (min-width: 680px) {
+  .cart_card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: 250px;
+    max-height: 250px;
+  }
+}

@@ -1,0 +1,31 @@
+.action_button {
+  font-size: 1.2rem; /* 12px */
+  padding: 1em 2em; /*12px 24px */
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: inherit;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  transition: background 0.5s, transform 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action_button:hover {
+  background: #fcaf17;
+  color: #000;
+  border: 1px solid #fcaf17;
+}
+
+.action_button:active {
+  transform: scale(0.98);
+}
+
+
+.action_button svg {
+  font-size: 24px;
+}

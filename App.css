@@ -1,0 +1,14 @@
+.Toastify__toast-body {
+  font-size: 16px;
+  top: 0;
+}
+
+.Toastify__toast--error {
+}
+
+.Toastify__toast--success {
+}
+
+.Toastify__toast--warning {
+  color: #000;
+}
