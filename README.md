@@ -1,17 +1,11 @@
 # Playverse Store
 
-[Playverse](https://playverse.netlify.app/) - An E-Commerce website for games.
 
 https://github.com/vivekbhatt07/ecommerce/assets/93856336/cb9e7232-6004-4c90-91dc-1ee7e8de11a3
 
 ## How to install and run locally?
 
-```
-$ git clone https://github.com/vivekbhatt07/ecommerce.git
-$ cd ecommerce
-$ npm install
-$ npm start
-```
+
 
 ## Features -
 
